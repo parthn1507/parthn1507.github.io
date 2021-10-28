@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no"
+    />
+    <title>BCR Solid Solutions</title>
+    <link href="images/favicon-32x32.png" rel="icon" type="image/png" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="css/offcanvas.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="section-forms">
+      <div class="col-lg-6 section-forms-left">
+        <div class="logo">
+          <a href="#"><img src="images/section-logo-1.svg" alt="BCR" /></a>
+        </div>
+
+        <div class="inner-form-block inner-form-otp-block">
+          <h1 class="setion-title">Verification</h1>
+          <h6 class="setion-title-small">
+            Enter the verification code we just sent to your email address.
+          </h6>
+          <form class="input-block input-block-otp">
+            <div class="floating-form">
+              <div class="floating-label">
+                <input
+                  class="floating-input"
+                  id="codeBox1"
+                  type="text"
+                  maxlength="1"
+                  onkeyup="onKeyUpEvent(1, event)"
+                  onfocus="onFocusEvent(1)"
+                  oninput="this.value=this.value.replace(/(?![0-9])./gmi,'')"
+                />
+              </div>
+              <div class="floating-label">
+                <input
+                  class="floating-input"
+                  id="codeBox2"
+                  type="text"
+                  maxlength="1"
+                  onkeyup="onKeyUpEvent(2, event)"
+                  onfocus="onFocusEvent(2)"
+                  oninput="this.value=this.value.replace(/(?![0-9])./gmi,'')"
+                />
+              </div>
+              <div class="floating-label">
+                <input
+                  class="floating-input"
+                  id="codeBox3"
+                  type="text"
+                  maxlength="1"
+                  onkeyup="onKeyUpEvent(3, event)"
+                  onfocus="onFocusEvent(3)"
+                  oninput="this.value=this.value.replace(/(?![0-9])./gmi,'')"
+                />
+              </div>
+
+              <div class="floating-label">
+                <input
+                  class="floating-input"
+                  id="codeBox4"
+                  type="text"
+                  maxlength="1"
+                  onkeyup="onKeyUpEvent(4, event)"
+                  onfocus="onFocusEvent(4)"
+                  oninput="this.value=this.value.replace(/(?![0-9])./gmi,'')"
+                />
+              </div>
+
+              <div class="floating-label">
+                <input
+                  class="floating-input"
+                  id="codeBox5"
+                  type="text"
+                  maxlength="1"
+                  onkeyup="onKeyUpEvent(5, event)"
+                  onfocus="onFocusEvent(5)"
+                  oninput="this.value=this.value.replace(/(?![0-9])./gmi,'')"
+                />
+              </div>
+
+              <div class="floating-label">
+                <input
+                  class="floating-input"
+                  id="codeBox6"
+                  type="text"
+                  maxlength="1"
+                  onkeyup="onKeyUpEvent(6, event)"
+                  onfocus="onFocusEvent(6)"
+                  oninput="this.value=this.value.replace(/(?![0-9])./gmi,'')"
+                />
+              </div>
+
+              <div class="floating-label">
+                <input
+                  class="floating-input"
+                  id="codeBox7"
+                  type="text"
+                  maxlength="1"
+                  onkeyup="onKeyUpEvent(7, event)"
+                  onfocus="onFocusEvent(7)"
+                  oninput="this.value=this.value.replace(/(?![0-9])./gmi,'')"
+                />
+              </div>
+            </div>
+
+            <div
+              class="row align-items-center justify-content-between capta-block"
+            >
+              <div class="col-lg-6 col-md-6 col-sm-12 text-left resend-text">
+                If you don't receive a code! <a href="#">Resend</a>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 text-right">
+                <button type="submit" class="btn-orange">VERIFY</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="section-footer">
+          <div class="f-terms">
+            <div>
+              <a href="#" class="copyright"
+                >Copyright 2021 BCR Environmental. All rights reserved.</a
+              >
+            </div>
+            <ul>
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#">Terms & Conditions</a>
+              </li>
+              <li>
+                <div class="framework-ic">
+                  <a href="#">
+                    <img src="images/ic-iw-white.svg" alt=" " />
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 section-forms-right px-0">
+        <div class="top-grdbar">
+          <div class="col-lg-6 grd-blue"></div>
+          <div class="col-lg-6 grd-orange"></div>
+        </div>
+        <div class="caption-main">
+          <h1>Header Text</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+            volutpat.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      function getCodeBoxElement(index) {
+        return document.getElementById("codeBox" + index);
+      }
+      function onKeyUpEvent(index, event) {
+        // if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)){
+        //   document.getElementById("codeBox" + (index + 1)).innerHTML = "";
+        //   return false;
+        // }
+        const eventCode = event.which || event.keyCode;
+        if (getCodeBoxElement(index).value.length === 1) {
+          if (index !== 7) {
+            getCodeBoxElement(index + 1).focus();
+          } else {
+            getCodeBoxElement(index).blur();
+            // Submit code
+            console.log("submit code ");
+          }
+        }
+        if (eventCode === 8 && index !== 1) {
+          getCodeBoxElement(index - 1).focus();
+        }
+      }
+      function onFocusEvent(index) {
+        for (item = 1; item < index; item++) {
+          const currentElement = getCodeBoxElement(item);
+          if (!currentElement.value) {
+            currentElement.focus();
+            break;
+          }
+        }
+      }
+
+      //
+    </script>
+  </body>
+</html>
