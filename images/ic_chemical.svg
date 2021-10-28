@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="ic_chemical" transform="translate(9991 8071)">
+    <rect id="Rectangle_157" data-name="Rectangle 157" width="28" height="28" transform="translate(-9991 -8071)" fill="rgba(128,57,57,0)"/>
+    <g id="ic_chemical-2" data-name="ic_chemical" transform="translate(-9985 -8067.5)">
+      <path id="flask" d="M15.379,14.186l-4.12-6.627V2.25h.281a.842.842,0,0,0,.844-.844V.844A.842.842,0,0,0,11.54,0H4.228a.842.842,0,0,0-.844.844v.563a.842.842,0,0,0,.844.844h.281V7.559L.389,14.186A2.5,2.5,0,0,0,2.5,18H13.266A2.5,2.5,0,0,0,15.379,14.186ZM4.857,11.25,6.552,8.522a1.114,1.114,0,0,0,.2-.647V2.25h2.25V7.875a1.131,1.131,0,0,0,.2.647L10.9,11.25Z" transform="translate(-0.009 1.5)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

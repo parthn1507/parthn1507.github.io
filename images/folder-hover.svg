@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="225.609" height="169.207" viewBox="0 0 225.609 169.207">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.548" x2="0" y2="0.561" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ec5724"/>
+      <stop offset="0.433" stop-color="#ed5b26"/>
+      <stop offset="1" stop-color="#faa752"/>
+    </linearGradient>
+  </defs>
+  <path id="folder-hover" d="M204.458,92.2h-84.6L91.654,64h-70.5A21.151,21.151,0,0,0,0,85.151v126.9a21.151,21.151,0,0,0,21.151,21.151H204.458a21.151,21.151,0,0,0,21.151-21.151v-98.7A21.151,21.151,0,0,0,204.458,92.2Z" transform="translate(0 -64)" fill="url(#linear-gradient)"/>
+</svg>

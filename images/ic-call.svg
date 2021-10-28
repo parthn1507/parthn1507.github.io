@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g id="ic-call" transform="translate(8563 596)">
+    <rect id="Rectangle_156" data-name="Rectangle 156" width="26" height="26" transform="translate(-8563 -596)" fill="none"/>
+    <g id="Group_51" data-name="Group 51" transform="translate(-8560 -600)">
+      <path id="phone-alt" d="M19.43,14.139l-4.375-1.875a.938.938,0,0,0-1.094.27L12.023,14.9A14.479,14.479,0,0,1,5.1,7.979L7.469,6.042a.935.935,0,0,0,.27-1.094L5.863.573A.944.944,0,0,0,4.789.03L.727.967A.938.938,0,0,0,0,1.881,18.123,18.123,0,0,0,18.127,20.006a.938.938,0,0,0,.912-.727l.938-4.063a.949.949,0,0,0-.547-1.078Z" transform="translate(0 4.994)" fill="#ec5724"/>
+    </g>
+  </g>
+</svg>
